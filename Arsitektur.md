@@ -1,6 +1,5 @@
-# Ecosystem Management System (E.M.S)
-
-Ecosystem Management System (E.M.S) adalah sistem manajemen dan pengawasan lingkungan berbasis AI yang terintegrasi dengan Gemini API. Sistem ini mempermudah analisis dan pengawasan kondisi lingkungan serta ekosistem untuk membantu mengendalikan pencemaran dan pengelolaan sampah di lingkungan sekitar.
+# Nexus ECO AI
+Nexus ECO adalah sistem manajemen dan pengawasan lingkungan berbasis AI yang terintegrasi dengan Gemini API. Sistem ini mempermudah analisis dan pengawasan kondisi lingkungan serta ekosistem untuk membantu mengendalikan pencemaran dan pengelolaan sampah di lingkungan sekitar.
 
 ## 🌟 Fitur Utama
 

@@ -1,6 +1,6 @@
-# Ecosystem Management System (E.M.S)
+# Nexus ECO AI
 
-Ecosystem Management System (E.M.S). E.M.S adalah sistem management dan pengawasan lingkungan berbasis AI yang dapat diintegrasikan dengan Gemini API. Sistem ini dibuat untuk memudahkan dalam menganalisis dan mengawasi kondisi lingkungan dan ekosistem untuk mengendalikan polusi atau pencemaran yang terjadi di lingkungan sekitar. E.M.S bekerja dengan menganalisis data dari pengguna untuk memberikan solusi dari sebuah permasalahan menggunakan hasil analisis dari data yang diberikan.
+Nexus ECO adalah sistem management dan pengawasan lingkungan berbasis AI yang dapat diintegrasikan dengan Gemini API. Sistem ini dibuat untuk memudahkan dalam menganalisis dan mengawasi kondisi lingkungan dan ekosistem untuk mengendalikan polusi atau pencemaran yang terjadi di lingkungan sekitar. E.M.S bekerja dengan menganalisis data dari pengguna untuk memberikan solusi dari sebuah permasalahan menggunakan hasil analisis dari data yang diberikan.
 
 Tech Stack yang digunakan:
 1. Typescript (React)
@@ -11,15 +11,15 @@ Tech Stack yang digunakan:
 Cloud Database = Supabase
 
 Tema = 
-1. Sky Blue dan Lime 
+1. Indigo dan Lime 
 2. Logo = Green IT
 3. Agentic AI Style
 
 
 ## System Rules ##
 
-- E.M.S Menolak perintah yang tidak berkaitan dengan lingkungan dan hanya menjawab seputar kondisi ekosistem, ilmu pengetahuan tentang alam dan lingkungan serta tentang sampah.
-- E.M.S Membaca data dari cloud database (Supabase) dan dianalisis untuk disesuaikan dengan input pertanyaan dari pengguna.
+- Nexus ECO Menolak perintah yang tidak berkaitan dengan lingkungan dan hanya menjawab seputar kondisi ekosistem, ilmu pengetahuan tentang alam dan lingkungan serta tentang sampah.
+- Nexus ECO Membaca data dari cloud database (Supabase) dan dianalisis untuk disesuaikan dengan input pertanyaan dari pengguna.
 - Mencari jawaban dari internet atau web menggunakan teknik deepsearch di sesuaikan dengan prompt dan data yang kurang.
 - Membuat grafik berdasarkan data yang dikirimkan.
 - Memilih model Gemini 2.5 Flash secara default.
@@ -32,7 +32,7 @@ Tema =
 ### Alur Login
 ## 1. Alur Autentikasi (Authentication Flow)
 
-Aplikasi E.M.S menggunakan **Supabase Auth** untuk mengelola sesi dan akses pengguna. Alur utamanya terbagi menjadi beberapa metode:
+Nexus ECO menggunakan **Supabase Auth** untuk mengelola sesi dan akses pengguna. Alur utamanya terbagi menjadi beberapa metode:
 
 ### A. Registrasi (Sign Up)
 1. Pengguna baru memilih opsi **"Buat akun baru"**.
@@ -133,7 +133,7 @@ Halaman **Agentic Page** pada aplikasi *"Ecosystem Management System"* berfungsi
   > "Kamu adalah Asisten Agentic AI yang berpikir secara rasional menyesuaikan data dari cloud database untuk menyelesaikan tugas yang diberikan seperti menyusun tabel, membuat grafik, serta membuat ringkasan dari database sesuai dengan perintah."
 
 #### 3. Komponen UI / UX
-1. **Header:** Judul sistem *"Ecosystem Management System"*.
+1. **Header:** Judul sistem *"Nexus ECO"*.
 2. **Chat Container:**
    * Area riwayat obrolan (pesan dari pengguna & respon AI).
    * **Loading State:** Animasi indikator "Sedang menganalisis database & DeepSearch..." saat proses berlangsung.
@@ -216,7 +216,7 @@ Halaman **Input and Create Table** adalah pusat administrasi bagi pengguna untuk
 ### 4. Setting
 
 #### 1. Overview
-Halaman **Setting** digunakan untuk mengatur preferensi pengguna, pembaruan kredensial akun (Username & Password), konfigurasi sistem AI, serta manajemen akun yang terhubung dalam *Ecosystem Management System*.
+Halaman **Setting** digunakan untuk mengatur preferensi pengguna, pembaruan kredensial akun (Username & Password), konfigurasi sistem AI, serta manajemen akun yang terhubung dalam *Nexus ECO*.
 
 #### 2. Fitur & Aturan Bisnis (Business Logic)
 * **Manajemen Profil & Kredensial:**
