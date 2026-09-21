@@ -59,7 +59,7 @@ export default function Auth() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-indigo-150 dark:bg-gray-900 px-4">
       <div className="max-w-md w-full bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 border-t-4 border-sky-500">
         <div className="flex justify-center mb-6">
           <div className="bg-emerald-100 dark:bg-emerald-900/30 p-3 rounded-full">
@@ -67,7 +67,7 @@ export default function Auth() {
           </div>
         </div>
         <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-2">
-          Ecosystem Management System
+          Nexus ECO 
         </h2>
         <p className="text-center text-gray-500 dark:text-gray-400 mb-8">
           {authMode === 'signin_password' 

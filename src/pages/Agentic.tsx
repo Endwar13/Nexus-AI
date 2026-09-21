@@ -142,7 +142,7 @@ export default function Agentic() {
       const COLORS = ['#0ea5e9', '#84cc16', '#3b82f6', '#f59e0b', '#8b5cf6'];
       
       return (
-        <div className="mt-4 h-64 w-full bg-white dark:bg-gray-800 p-4 rounded-xl border border-gray-200 dark:border-gray-700">
+        <div className="mt-4 h-64 w-full bg-indigo-150 dark:bg-gray-800 p-4 rounded-xl border border-gray-200 dark:border-gray-700">
           <ResponsiveContainer width="100%" height="100%">
             {type === 'bar' ? (
               <BarChart data={data}>
@@ -184,12 +184,12 @@ export default function Agentic() {
   };
 
   return (
-    <div className="flex flex-col h-full bg-white dark:bg-gray-900">
+    <div className="flex flex-col h-full bg-indigo-200 dark:bg-gray-900">
       {/* Header */}
       <header className="px-6 py-4 border-b border-gray-200 dark:border-gray-800 flex justify-between items-center bg-white/50 dark:bg-gray-900/50 backdrop-blur-sm z-10 sticky top-0">
         <h1 className="text-xl font-bold text-gray-900 dark:text-white flex items-center">
           <Bot className="mr-2 text-sky-500" />
-          Agentic AI Assistant
+          Nexus AI Assistant
         </h1>
         <div className="flex items-center bg-gray-100 dark:bg-gray-800 p-1 rounded-lg">
           <button
@@ -242,7 +242,7 @@ export default function Agentic() {
           <div className="flex justify-start">
             <div className="bg-gray-100 dark:bg-gray-800 rounded-2xl rounded-bl-none px-5 py-4 border border-gray-200 dark:border-gray-700 flex items-center text-gray-500 dark:text-gray-400 text-sm">
               <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-              Sedang menganalisis database & DeepSearch...
+              Berpikir
             </div>
           </div>
         )}
@@ -250,7 +250,7 @@ export default function Agentic() {
       </div>
 
       {/* Input Area */}
-      <div className="p-4 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+      <div className="p-4 bg-indigo-300 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
         <form onSubmit={handleSubmit} className="max-w-4xl mx-auto flex flex-col gap-3">
           <div className="flex justify-between items-center">
             <button

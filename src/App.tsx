@@ -18,7 +18,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   const { user, profile, loading } = useAuth();
   
   if (loading) {
-    return <div className="h-screen w-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-500"></div></div>;
+    return <div className="h-screen w-screen flex items-center justify-center bg-indigo-100 dark:bg-gray-900"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-sky-500"></div></div>;
   }
   
   if (!user) {

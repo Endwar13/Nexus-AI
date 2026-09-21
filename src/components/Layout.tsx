@@ -40,7 +40,7 @@ export default function Layout() {
       {/* Sidebar */}
       <aside
         className={clsx(
-          "bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 transition-transform duration-300 flex flex-col fixed md:relative z-50 h-full shadow-xl md:shadow-none",
+          "bg-indigo-300 dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 transition-transform duration-300 flex flex-col fixed md:relative z-50 h-full shadow-xl md:shadow-none",
           mobileMenuOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0",
           collapsed ? "w-20" : "w-64"
         )}
@@ -52,7 +52,7 @@ export default function Layout() {
           {collapsed ? <ChevronRight size={16} /> : <ChevronLeft size={16} />}
         </button>
 
-        <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex flex-col items-center justify-center min-h-[140px] relative">
+        <div className="p-4 border-b border-gray-900 dark:border-gray-700 flex flex-col items-center justify-center min-h-[140px] relative">
           <button 
             className="md:hidden absolute top-4 right-4 text-gray-500 dark:text-gray-400"
             onClick={() => setMobileMenuOpen(false)}
@@ -88,7 +88,7 @@ export default function Layout() {
                 clsx(
                   "flex items-center p-3 rounded-lg transition-colors whitespace-nowrap",
                   isActive
-                    ? "bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 font-medium"
+                    ? "bg-indigo-150 dark:bg-indigo-900/30 text-sky-600 dark:text-sky-400 font-medium"
                     : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white"
                 )
               }
@@ -124,7 +124,7 @@ export default function Layout() {
           </button>
           <div className="flex items-center ml-2">
             <Leaf className="w-5 h-5 text-emerald-500 mr-2" />
-            <span className="font-bold text-gray-900 dark:text-white text-lg">E.M.S</span>
+            <span className="font-bold text-gray-900 dark:text-white text-lg">Nexus ECO</span>
           </div>
         </div>
         
