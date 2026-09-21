@@ -1,0 +1,6 @@
+{
+  "name": "Ecosystem Management System",
+  "description": "A comprehensive environmental monitoring system with Agentic AI, real-time data tracking, and dynamic insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
